@@ -6,9 +6,12 @@
  * Time: 09:49
  */
 
-if(!function_exists('image_extension')){
+if(!function_exists('is_image')){
     /**
      * 检查是否为图片文件的后辍名
+     *
+     * @param $file
+     * @return bool
      */
     function is_image($file){
         $extensions = ['jpg','jpeg','gif','png','bmp','webp','psd','svg','tiff'];

@@ -9,7 +9,7 @@
         </div>
 
         <div class="input-group" style="margin-bottom: 5px;">
-            <span class="input-group-addon"><i class="fa fa-pencil fa-fw"></i></span>
+            <span class="input-group-addon"><i class="fa fa-file"></i></span>
             <input type="text" class="form-control {{$name}}" readonly data-id="media-{{$name}}" name="{{$name}}" value="{{old($column, $value)}}">
         </div>
 
